@@ -1,13 +1,15 @@
 # ONLINE GENDER-BASED VIOLENCE INFORMATION SYSTEM (UniSafe)
 
+You can find a Preview of all this README at https://github.com/FYP-UniSafe/.github.git
+
 ## TEAM MEMBERS
 
-| Registration Number | Name                 | Role                                                                |
-| ------------------- | -------------------- | ------------------------------------------------------------------- |
-| 2021-04-05717       | Mandy, Nuhu Paschal  | Backend (Web and Mobile) & Frontend (Scripting, Modules, Services - Web App ) |
+| Registration Number | Name                  | Role                                                                  |
+| ------------------- | --------------------- | --------------------------------------------------------------------- |
+| 2021-04-05717       | Mandy, Nuhu Paschal   | Backend (Web and Mobile) Frontend (Scripting, Modules and Services - Web App) |
 | 2021-04-07667       | Mollam, Reuben Wiliam | Frontend (Mobile App) & UI Designer (Mobile App)                      |
-| 2021-04-05873       | Mariki, Whitney      | Frontend (HTML and CSS - Web App) & UI Designer (Web App)           |
-| 2021-04-09212       | Musama, Irene        | Text Message Application                                            |
+| 2021-04-05873       | Mariki, Whitney       | Frontend (HTML and CSS - Web App) & UI Designer (Web App)           |
+| 2021-04-09212       | Musama, Irene         | Text Message Application                                              |
 
 ## INTRODUCTION
 
@@ -197,9 +199,9 @@ For more detailed instructions and configuration options, refer to the [Vercel d
 ### Contributing
 
 **Contact**
-For inquiries, contact [Mandy, Nuhu Paschal](mailto:caljr9301@gmail.com).
+For inquiries, contact [Mandy, Nuhu Paschal](mailto:caljr9301@gmail.com) or [Mariki, Whitney](mailto:marikiwhitney@gmail.com).
 
-## UniSafe Backend
+## UniSafe BACKEND
 
 ### Prerequisites
 
@@ -328,3 +330,81 @@ DATABASES = {
 
 **Contact**
 For inquiries, contact [Mandy, Nuhu Paschal](mailto:caljr9301@gmail.com).
+
+## UniSafe TEXT MESSAGE APPLICATION
+
+### Prerequisites
+
+Before setting up the text message application, ensure you have understood its purpose, the problem it solves, and the technologies used. Here's a brief overview:
+
+### General Information
+
+- **Purpose**: The application facilitates SMS communication through a shared shortcode, focusing on keyword-based messages for gender-based violence support.
+- **Problem Solved**: It simplifies SMS-based interactions and integrates with a shared database for seamless data management and resource delivery, enhancing support mechanisms for gender-based violence.
+
+### Technologies Used
+
+- **Platform**: The application utilizes the TextIt platform, an online platform for managing SMS flows and interactions.
+- **API**: Integration with Africa's Talking API is essential for sending and receiving SMS messages.
+- **Database**: A shared database is used for both the website and the app, with data being sent in JSON format for consistency and ease of integration.
+
+### Specific Requirements
+
+- **TextIt Platform**: Access to the TextIt platform is required. The flow for the application can be found at [TextIt Flow Editor](https://textit.com/flow/editor/11f87f51-3784-4c31-9033-f68369dcec39/). Login credentials will be necessary for accessing the Unisafe flow.
+- **Africa's Talking API**: Ensure you have valid credentials for Africa's Talking API for SMS integration.
+- **Database Configuration**: The database should be configured to receive JSON data, ensuring seamless communication and data storage.
+
+Ensure these prerequisites are met to successfully set up and run the text message application for gender-based violence support.
+
+### Setup
+
+#### TextIt Configuration
+
+- Access the TextIt platform to manage SMS flows and interactions.
+- Navigate to the Unisafe flow using the following link: [Unisafe Flow](https://textit.com/flow/editor/11f87f51-3784-4c31-9033-f68369dcec39/).
+- For the Login Credentials (Username & Password), contact [Musama, Irene](mailto:irenemwita24@gmail.com).
+  > NOTE: The shared shortcode is available for testing without requiring login credentials.
+
+#### Database Setup
+
+- Configure the database to accept JSON formatted data.
+- Ensure there is a reliable connection between the SMS application and the database to facilitate seamless data exchange.
+
+### Testing
+
+#### Initial Tests
+
+- Conduct initial tests by sending messages that start with "gen" to the shared shortcode.
+- Confirm that the application processes these messages correctly.
+
+#### Database Verification
+
+- Check the database to ensure that JSON formatted data sent from the application is correctly received and stored.
+
+#### API Tests
+
+- Test the integration with Africa's Talking API to verify that SMS sending and receiving functionalities work as expected.
+
+### Common Problems and Bugs
+
+- **Message Formatting Issues**: Messages must start with "gen" to be processed correctly. Ensure compliance with this format.
+- **API Integration Errors**: If encountering issues, review the Africa's Talking API credentials and integration settings.
+- **Database Connection Problems**: Confirm that the database is properly configured to receive JSON data and that there are no issues with connectivity.
+
+To start using the SMS application, follow these steps:
+
+### Send SMS:
+
+- Use the shared shortcode to send a message. (Shortcode = 15054)
+- First send the trigger word, “gen” to start the flow.
+- Begin each message with the keyword "gen".
+- Example: `gen 1`
+
+### Receive Response:
+
+- The application will process the message and send an appropriate response.
+
+### Contributing
+
+**Contact**
+For inquiries, contact [Musama, Irene](mailto:irenemwita24@gmail.com).
