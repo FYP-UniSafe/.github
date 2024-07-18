@@ -4,9 +4,9 @@
 
 | Registration Number | Name                 | Role                                                                |
 | ------------------- | -------------------- | ------------------------------------------------------------------- |
-| 2021-04-05717       | Mandy, Nuhu Paschal  | Frontend (Typecripts and Services Web App) & Backend (Web and Mobile) |
+| 2021-04-05717       | Mandy, Nuhu Paschal  | Backend (Web and Mobile) & Frontend (Scripting, Modules, Services - Web App ) |
 | 2021-04-07667       | Mollam, Reuben Wiliam | Frontend (Mobile App) & UI Designer (Mobile App)                      |
-| 2021-04-05873       | Mariki, Whitney      | Frontend (HTML and CSS for Web App) & UI Designer (Web App)           |
+| 2021-04-05873       | Mariki, Whitney      | Frontend (HTML and CSS - Web App) & UI Designer (Web App)           |
 | 2021-04-09212       | Musama, Irene        | Text Message Application                                            |
 
 ## INTRODUCTION
